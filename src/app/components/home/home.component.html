@@ -1,0 +1,8 @@
+<div class="jumbotron bg-white text-center">
+<h1 class="display-4">Corona Covid19_Tracker</h1>
+<hr>
+
+<app-dashboard-card [totalConfirmed]='totalConfirmed' [totalActive]='totalActive' [totalRecovered]='totalRecovered' [totalDeaths]='totalDeaths'></app-dashboard-card>
+</div>
+<google-chart [data]="pieChart"></google-chart>
+<google-chart [data]="columnChart"></google-chart>
